@@ -12,13 +12,13 @@ body {
   font-family: 'Times New Roman', Times, serif;
   display: flex;
   min-height: 100vh;
-  justify-content: center;
-  text-align: center;
 }
 
 .main-content {
   max-width: 50%;
   min-width: 350px;
+  height: 50%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,7 +95,7 @@ button {
   height: 280px;
   background-color: #212a3e;
   border-radius: 10px;
-  top: 100px;
+  top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
