@@ -31,6 +31,7 @@ body {
 h1 {
   padding: 0 0 20px 0;
   text-align: center;
+  position: relative;
 }
 
 button {
@@ -40,8 +41,14 @@ button {
   margin: 5px;
   border-color: #d25380;
   background-color: #d25380;
-  color: #212a3e;
+  color: #27374d;
   font-weight: 900;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button > i {
+  color: #ffe569;
 }
 
 .selection {
@@ -86,6 +93,7 @@ button {
 #player-score,
 #computer-score {
   font-weight: 700;
+  font-size: 18px;
 }
 
 .winner-modal {
